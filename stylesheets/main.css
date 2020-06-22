@@ -1,0 +1,94 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+header {
+  background: rgb(179, 0, 0);
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+header h1 {
+  float: left;
+  height: 20px;
+  width: 175px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header li {
+  float: right;
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+header li:hover {
+  background: rgb(100, 100, 100);
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  background: rgb(100, 100, 100);
+  color: white;
+  height: 40px;
+  padding: 0 25px;
+}
+
+nav li {
+  float: right;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+nav li:hover {
+  background: rgb(179, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+section {
+  width: 68%;
+  padding: 30px 80px 30px 30px;
+}
+
+section h1 {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section p {
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 20px;
+  font-size: 18px;
+}
+
+aside h2 {
+  font-weight: bold;
+}
+
+footer {
+  background: rgb(100, 100, 100);
+  color: white;
+  height: 40px;
+  padding: 20px;
+  font-size: 14px;
+}
